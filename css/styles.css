@@ -1,0 +1,112 @@
+body {
+    font-family: "Helvetica Neue", "Segoe UI", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 400;
+    font-size: 0.83em;
+    line-height: 1.45em;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #333;
+    font-family: "Helvetica Neue Light", "Helvetica Neue", "Segoe UI", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 400;
+    letter-spacing: -0.024em;
+    line-height: normal;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 1.3em;
+    margin-bottom: 0.5em;
+}
+
+h2 {
+    font-size: 1.2em;
+    font-weight: 500;
+    margin-bottom: 0.75em;
+}
+
+h3 {
+    font-size: 1.1em;
+    margin-bottom: 0.75em;
+}
+
+ol,
+pre,
+p {
+    margin-bottom: 1rem;
+}
+
+code, kbd, pre, samp {
+    font-family: Consolas, Monaco, "Andale Mono", monospace;
+    font-size: 75%;
+}
+
+code {
+    background-color: #fafafa;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    color: #333;
+    font-size: 0.9em;
+    padding: 0.15em 0.25em;
+}
+pre {
+    background-color: #fafafa;
+    border-left: 5px solid #ccc;
+    border-radius: 4px;
+    color: #333;
+    display: block;
+    font-size: 0.9em;
+    line-height: 1.5em;
+    padding: 1em;
+    word-break: break-all;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+}
+
+acronym {
+    border-bottom: 1px dotted #999;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+}
+
+.visuallyhidden {
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: polygon(0px 0px, 0px 0px,0px 0px, 0px 0px);
+}
+
+.mainContainer {
+    min-width: 25em;
+    padding: 0;
+}
+
+.mainContainer h1 {
+    background: #5195d6;
+    color: #fff;
+    padding: 0.5em 1em;
+}
+
+.innerContainer {
+    padding: 1em 1.5em;
+}
+
+.innerContainer ul {
+    margin: 0 0 0 1.25em;
+    padding: 0;
+}
+
+.innerContainer ul li{
+    margin: 0 0 0.5em;
+    padding: 0;
+}
